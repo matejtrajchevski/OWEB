@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Почетна страна</title>
+            <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="font-awesome.css" rel="stylesheet" type="text/css" media="all" />
+        </head>
+        <body>
+            <!-- Start Header -->
+                <div class="header">	
+                         <div class="header-top">
+                           <div class="wrap"> 
+                              <div class="header-top-left">
+                                  <p>Поддшка: +389077500000</p>
+                              </div>
+                              <div class="header-top-right">
+                                 <ul>
+                                     <li><a href"#"><i class="fa fa-comments"></i>Разговор</a></li>
+                                     <li  class="login">
+                                       <div id="loginContainer">
+                                            <a href="#" id="loginButton"><span><i class="fa fa-lock"></i>Најава</span></a>
+                                                 <div id="loginBox" class="login-form">    
+                                                     <h3>Најавете се на вашиот акаунт</h3>            
+                                                       <form id="loginForm">
+                                                                 <span>
+                                                                      <i><img src="images/user.png" alt="" /></i>
+                                                                       <input type="text" value="yourname@mail.com" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'yourname@mail.com';}">
+                                                                  </span>
+                                                                 <span>
+                                                                   <i><img src="images/lock.png" alt="" /></i>
+                                                                   <input type="password" value="........." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '.........';}">
+                                                                  </span>
+                                                                <input type="submit" value="НАЈАВА">
+                                                        </form>
+                                                   </div>
+                                              </div>
+                                        </li>
+                                        <li><a href="#" ><i class="fa fa-sign-in"></i>Регистрација</a></li>
+                                  </ul>
+                             </div>
+                           <div class="clear"></div>
+                          </div> 
+                       </div>
+                      <div class="header-logo-nav">
+                            <div class="navbar navbar-inverse navbar-static-top nav-bg" role="navigation">
+                               <div class="container">
+                                 <div class="navbar-header">
+                                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                   </button>
+                                  <div class="logo"> <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                                   <div class="clear"></div>
+                                 </div>
+                                 <div class="collapse navbar-collapse">
+                                   <nav>
+                                    <ol class=" menu nav navbar-nav">
+                                     <li class="active"><a href="index.html">Дома</a></li>
+                                     <li class="active"><a href="products.html">Производи</a></li>
+                                     <li class="active"><a href="contact.html">Контакт</a></li>
+                                   </ol>
+                                </nav>
+                                 </div><!--/.nav-collapse -->
+                               </div>
+                             </div>
+                          <div class="clear"></div>
+                     </div>
+                     <div class="header-banner">
+                         
+                         <!-- Carousel ================================================== -->
+                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                          <div class="wrap">
+                           <div class="carousel-inner">
+                             <div class="item active">
+                                <div class="row">
+                                 <div class="col-md-6">
+                                   <div class="banner-desc">
+                                     <h2>SA-MP ХОСТИНГ | 100 ден/месечно</h2>
+                                    <ul>
+                                       <li><span><i class="fa fa-chevron-right"></i>24/7 Техничка поддршка</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>Целосен пристап до гејм панел</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>Една IP адреса со личен порт</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>БЕСПЛАТНА РЕИНСТАЛАЦИЈА</span></li>
+                                   </ul>
+                                   <div class="see-features"><a href="products.html">Останати пакети</a></div>
+                                   </div>
+                                 </div>
+                                 <div class="col-md-6">
+                                     <div class="banner-img">
+                                     <img src="images/sampslajder.png" alt="First slide" />
+                                  </div>
+                                 </div>
+                               </div>
+                             </div>
+                              <div class="item">
+                              
+                               <!--<div class="row">
+                                   <div class="col-md-6">
+                                     <div class="banner-img">
+                                     <img src="images/csslajder.png" alt="First slide" />
+                                  </div>
+                                 </div>-->
+                                 <div class="col-md-6">
+                                     <div class="banner-desc">
+                                     <h2>CS 1.6 ХОСТИНГ | 100 ден/месечно</h2>
+                                   <ul>
+                                       <li><span><i class="fa fa-chevron-right"></i>24/7 Техничка поддршка</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>Целосен пристап до гејм панел</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>Една IP адреса со личен порт</span></li>
+                                     <li><span><i class="fa fa-chevron-right"></i>БЕСПЛАТНА РЕИНСТАЛАЦИЈА</span></li>
+                                   </ul>
+                                   <div class="see-features"><a href="products.html">Останати пакети</a></div>
+                                   </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                     <div class="banner-img">
+                                     <img src="images/csslajder.png" alt="First slide" />
+                                  </div>
+                               </div>
+                             </div>
+                            </div>
+                           </div>
+                           <a class="left carousel-control left-arrow" href="#myCarousel" data-slide="prev"><span><i class="fa fa-chevron-left"></i></span></a>
+                           <a class="right carousel-control right-arrow" href="#myCarousel" data-slide="next"><span><i class="fa fa-chevron-right"></i></span></a>
+                         </div><!-- /.carousel -->
+                        </div>
+                       <span class="big-arrow"></span>
+                      </div>
+            <!-- End Header -->
+            
+            <!-- Start Main Content -->
+              <div class="main">	 
+                   <div class="wrap">
+                  <div class="features">
+                      <div class="row">
+                         <div class="col-lg-4">
+                           <img src="images/private-cloud.png" alt="" />
+                           <h2>Заштитени податоци</h2>
+                         </div><!-- /.col-lg-4 -->
+                         <div class="col-lg-4">
+                         <img src="images/dedicated-servers.png" alt="" />
+                           <h2>VPS Машини</h2>
+                         </div><!-- /.col-lg-4 -->
+                         <div class="col-lg-4">
+                           <img src="images/hybrid-cloud.png" alt="" />
+                           <h2>Веб Хостинг</h2>
+                         </div><!-- /.col-lg-4 -->
+                       </div>
+                    </div>
+                    
+                    <div class="support">
+                        <div class="container-fluid">
+                       <div class="row">
+                        <div class="col-lg-10">
+                            <h2>GAME PANEL - ACTIVE</h2>
+                            <p>Гејм панелот е секогаш online 24/7 можете да се најавите со кликање на копчето GPanel. </p>
+                        </div>
+                         <div class="col-lg-2">
+                           <p><a class="read-more" href="http://matrix.sakam.host/">GPANEL</a></p>
+                        </div>
+                       </div>
+                     </div>
+                    </div>
+                    
+                    <div class="list-performance">
+                         <div class="row">
+                        <div class="col-lg-6">
+                            <h2>Наш тим</h2>
+                            <ul>
+                                <li><i class="fa fa-check"></i>Веб Дизајнер</li>
+                                <li><i class="fa fa-check"></i>Системски Администратори</li>
+                                <li><i class="fa fa-check"></i>Сектор за реклами</li>
+                                <li><i class="fa fa-check"></i>Техничка Поддршка Тим</li>
+                                <li><i class="fa fa-check"></i>Соработка со единки</li>
+                                <li><i class="fa fa-check"></i>И многу други</li>
+                            </ul>
+                        </div>
+                         
+                      </div>
+                    </div>
+                  </div>  
+                  <div class="testimonials-news">
+                    <div class="clients">
+                         <h2>Наши клиенти</h2>
+                             <div class="testimonials">
+                              <div id="carousel-demo">
+                                  <div class="wrap">
+                                 <div id="owl-demo" class="owl-carousel">		                
+                                 <div class="item">
+                                     <img class="img-circle" src="images/ava-1.jpg" alt="" />
+                                     <h3>Матеј</h3>
+                                     <p>“Да се биде дел од Матрикс Хостинг е поим! Затоа што нашиот сервер моментално е еден од најдобрите во светот
+                                         нашата заедница е премногу задоволна од услугите кои ги нуди Матрикс Хостинг!”</p>
+                                 </div>
+                                  <div class="item">
+                                     <img class="img-circle" src="images/ava-2.jpg" alt="" />
+                                     <h3>Трајче</h3>
+                                     <p>“Размислував долго време за Хостинг, уште првиот ден кога ги сретнав Матрикс Хостинг си реков да ја пробам нивната услуга
+                                         денеска постигнав висок стандард на мојата веб страна.”</p>
+                                 </div>
+                                  <div class="item">
+                                     <img class="img-circle" src="images/ava-3.jpg" alt="" />
+                                     <h3>јован</h3>
+                                     <p>“Одличен хост, најмал пинг а и оптимизиран за игри какви што ми треба, пофалби!!”</p>
+                                 </div>
+                                  <div class="item">
+                                     <img class="img-circle" src="images/ava-4.jpg" alt="" />
+                                     <h3>Павел</h3>
+                                     <p>“Дали е реално да постои таков добар хост кој и при 3 пати DDoS напади серверот остана на нозе?! Одличен е хостот, работат со јаки машини секоја чест!!”</p>
+                                 </div>
+                                </div>
+                               </div>
+                          </div>
+                       </div>
+                    </div>
+                    
+                   <div class="news">
+                       <div class="wrap">
+                         <h2>Новости</h2>
+                         <div class="row">
+                         <div class="col-lg-3 news-grid">
+                           <img src="images/gpanelslajder.png" alt="" />
+                           <div class="news-desc">
+                           <h2>Нов Гејм панел</h2>
+                           <p>После гасењето на хостот се работеше на нов панел кој е сега спроведен и ја олеснува работата на нашите клиенти.</p>
+                           <p><a class="read-more" href="http://matrix.sakam.host/">Panel</a></p>
+                             <div class="news-desc-bottom">
+                                 <p class="left">Задоволни Корисници</p>
+                                 <p class="right"><i class="fa fa-comment"></i> 38</p>
+                                <div class="clear"></div>
+                             </div>
+                             <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+                           </div>
+                         </div><!-- /.col-lg-4 -->
+                         <div class="col-lg-3 news-grid news-grid-middle">
+                         <img src="images/news-img.jpg" alt="" />
+                          <div class="news-desc">
+                           <h2>Новост 2</h2>
+                           <p>TEXT</p>
+                           <p><a class="read-more" href="#">прочитај повеќе</a></p>
+                             <div class="news-desc-bottom">
+                                 <p class="left">Задоволни Корисници</p>
+                                 <p class="right"><i class="fa fa-comment"></i> 125</p>
+                                <div class="clear"></div>
+                             </div>
+                             <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+                           </div>
+                         </div><!-- /.col-lg-4 -->
+                         <div class="col-lg-3 news-grid">
+                           <img src="images/news-img.jpg" alt="" />
+                          <div class="news-desc">
+                           <h2>Новост 3</h2>
+                           <p>TEXT</p>
+                           <p><a class="read-more" href="#">прочитај повеќе</a></p>
+                             <div class="news-desc-bottom">
+                                 <p class="left">Задоволни Корисници</p>
+                                 <p class="right"><i class="fa fa-comment"></i> 125</p>
+                                <div class="clear"></div>
+                             </div>
+                             <div class="image-icon"><span><i class="fa fa-align-left"></i></span></div>
+                           </div>
+                         </div><!-- /.col-lg-4 -->
+                       </div>
+                        </div>
+                   </div>
+              </div>
+             </div>
+            <!-- End Main Content -->
+                
+           <!-- Start Footer -->
+                <span class="footer-arrow"></span>
+                <div class="footer">	  
+                     <div class="wrap">	      
+                   <div class="row">
+                        <div class="col-lg-6">
+                            <h2>За</h2>
+                            <p>Нашата цел е да се помогне да се интегрираат најновите технологии во реалниот живот, онаа што ќе донесе поевќе удобност, слобода на мобилност и безбедност на нивниот секојдневен живот.</p>
+                         <ul class="links">
+                             <li><a href="index.html">Почетна</a> /</li>
+                             <li><a href="about.html">За нас</a> /</li>
+                             <li><a href="products.html">Понуди</a> /</li>
+                             <li><a href="https://www.facebook.com/matrixhost.mk/">Контакт</a></li>
+                         </ul> 
+                        </div>
+                         <div class="col-lg-6">
+                          <h2>За</h2>
+                          <div class="products-list">
+                              <p>Нашата визија е да се обезбеди додадена вредност на компаниите преку имплементирање на електронски уреди и решенија, кои се базирани на најновите достигнувања на науката и технологијата.</p>
+                          <div class="clear"></div>
+                         </div>
+                         </div>
+                        </div>
+                       </div>
+                      </div>
+                    </div>
+                      <div class="footer-bottom">
+                          <div class="wrap">
+                          <div class="copy-right">
+                              <p>Matrix Hosting | Copyright (c) 2016 all right reserved. Designed by  <a href="https://www.facebook.com/scarface1337" target="_blank">gogovz</a></p>
+                          </div>
+                          <div class="social-icons">
+                              <ul>
+                                  <li><a href="https://twitter.com/johnsonbizzy2"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="https://www.facebook.com/matrixhost.mk/"><i class="fa fa-facebook"></i></a></li>
+                              </ul>
+                          </div>
+                          <div class="clear"></div>
+                      </div>
+                    </div>
+           <!-- End Footer -->
+        </body>            
+            
+    </html>
